@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>EcoCart Chrome Extension</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="fullpage">
+        <div class="section" data-anchor="landing">
+          <div class="hero-image">
+            <a href="https://ecocart.io/">
+              <img id="logo" src="assets/img/logo.png" alt="" />
+            </a>
+            <div class="hero-text">
+              <h1 style="font-size: 50px; margin-top: 0px; margin-bottom: 5px;">
+                Click Button. Save Planet.
+              </h1>
+              <h3
+                style="font-weight: normal; margin-top: 0px; margin-bottom: 2%;"
+              >
+                <strong style="font-style: italic; font-weight: bold;"
+                  >COMING SOON:</strong
+                >
+                EcoCart instantly makes your online orders carbon neutral at no
+                cost to you
+              </h3>
+              <input type="text" id="email" placeholder="Enter Your Email" />
+              <input style="margin-left: 4px;" type="submit" value="Notify Me" />
+            </div>
+
+            <a href="#more-info"><div class="scroll-down"></div></a>
+          </div>
+        </div>
+        <div class="section" data-anchor="more-info"></div>
+      </div>
+    </div>
+    <script>
+      $("#wrapper").fullpage();
+    </script>
+  </body>
+</html>
