@@ -13,18 +13,17 @@ input[type=text] {
     border-radius: 8px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
-  input[type=submit] {
-      background-color: #00B050 !important;
-      color:white !important;
-      font-weight: 600 !important;
-      padding: 12px 20px !important;
-      border-radius: 8px !important;
-      font-family: 'Montserrat', sans-serif !important;
-      border: 1px solid #00B050 !important;
-      
-  }
+input[type=submit] {
+    background-color: #00B050 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    padding: 12px 20px !important;
+    border-radius: 8px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    border: 1px solid #00B050 !important;
+}
 
 body {
     font-family: 'Montserrat', sans-serif !important;
@@ -33,7 +32,7 @@ body {
 }
 
 .hero-image {
-    background-image: url("../assets/img/hero.png");
+    background-image: url("../assets/img/hero.svg");
     background-color: #cccccc;
     height: 100vh;
     width: 100vw;
@@ -48,8 +47,6 @@ body {
     margin-top: 3vh;
     margin-left: 10vh;
 }
-
-
 
 .scroll-down {
     position: absolute;
@@ -122,8 +119,5 @@ body {
 .hero-text {
     text-align: center;
     padding-top: 13vh;
-   
-
     /* transform: translate(-50%, -50%); */
-
-  }
+}
