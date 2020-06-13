@@ -15,14 +15,21 @@ input[type=text] {
     font-family: 'Montserrat', sans-serif;
 }
 
-input[type=submit] {
-    background-color: #00B050 !important;
-    color: white !important;
-    font-weight: 600 !important;
-    padding: 12px 20px !important;
-    border-radius: 8px !important;
-    font-family: 'Montserrat', sans-serif !important;
-    border: 1px solid #00B050 !important;
+button {
+    background-color: #00B050;
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #00B050;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #00B050;
+    color: white;
+    cursor: pointer;
 }
 
 body {
@@ -47,6 +54,48 @@ body {
     margin-top: 3vh;
     margin-left: 10vh;
 }
+
+.subtitle {
+    display: flex;
+    text-align: left;
+    color: #646464;
+    margin-top: 5px;
+}
+
+.numbers {
+    font-size: 10vh;
+    margin-top: 0px;
+    color: #5D97B7;
+}
+
+.step {
+    margin-bottom: 5px;
+}
+
+.words {
+    margin-left: 1vw;
+}
+
+.description {
+    margin-top: 0px;
+}
+
+.dashed {
+
+    border:  #00B050;
+    transform: rotate(90deg);
+
+}
+.icon {
+    width: 8vw;
+}
+
+.heading {
+    color: #646464;
+    font-size: 3.5vh;
+}
+
+/* scroll-down prompt animation */
 
 .scroll-down {
     position: absolute;

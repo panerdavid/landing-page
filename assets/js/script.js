@@ -1,17 +1,6 @@
-// new fullpage("#wrapper", {
-//   //options here
-//   autoScrolling: true,
-//   scrollHorizontally: true,
-// });
+var response = document.getElementById("email").value;
+console.log(response)
 
-//methods
-fullpage_api.setAllowScrolling(false);
-
-$(document).ready(function () {
-  $("#wrapper").fullpage({
-    anchors: ["more-info"],
-    autoScrolling: false,
-    scrollHorizontally: false,
-    fitToSection: false,
-  });
-});
+function test() {
+  console.log(this.response);
+}
